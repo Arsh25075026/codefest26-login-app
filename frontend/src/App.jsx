@@ -188,7 +188,7 @@ const App = () => {
         THE MOST AWAITED : CODEFEST'26
       </div>
 
-      <div className="cred">SignUp Credentials (MADE BY : ARSH (CSE PART TWO : IIT VARANSI))</div>
+      <div className="cred">SignUp Credentials <br/>(MADE BY : ARSH (CSE PART TWO : IIT VARANSI))</div>
 
       <form className="form" onSubmit={handleSubmit}>
         <label className="from">Username :</label>
