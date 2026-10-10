@@ -17,7 +17,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        'http://localhost:3000/api/register',
+        'https://codefest26-login-app-2.onrender.com/api/register',
         {
           method: 'POST',
           headers: {
@@ -60,7 +60,7 @@ const App = () => {
 
     try {
       const response = await fetch(
-        'http://localhost:3000/api/login',
+        'https://codefest26-login-app-2.onrender.com/api/login',
         {
           method: 'POST',
           headers: {
